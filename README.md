@@ -1,7 +1,7 @@
 ## Get EasyIO on NuGet!
 
 ```
-Install-Package EasyIO.Library -Version 1.0.4
+Install-Package EasyIO.Library -Version 1.1.1
 ```
 
 EasyIO Library is a work in progress library designed to remake complex functions to be easier to use and understand.
@@ -47,14 +47,16 @@ Any recommendations for past code, or suggestions for future code are greatly ap
   - Write to specific lines of files.
   - Append a line to a file.
   - Read all lines in the file.
-  - Clear Files 
+  - Clear Files
+  - Zip Files
+  - Search Files
+  - Create Files
     
-   To be added:
-    - A way to search files
-    - A way to add multiple lines to file
-    - A way to create lists from files
-    - Insert lines into file
-    - format lines
+  To be added:
+  - A way to add multiple lines to file
+	- A way to create lists from files
+  - Insert lines into file
+  - format lines
 
   #### IO Class
   - wide variety of random functions, usually to ease the creation of UI's for console apps
@@ -79,11 +81,10 @@ Any recommendations for past code, or suggestions for future code are greatly ap
   - Subtract 
   - Multiply 
   - Divide 
-    
-    NOTE: To be added:
+
+	To be added:
     - Trig 
-    - Area 
-    - Linear Algebra 
+    - Area  
     - Eventually some form of function handler 
     - and more
 
