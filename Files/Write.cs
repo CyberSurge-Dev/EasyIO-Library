@@ -3,9 +3,9 @@ using System.Collections.Generic;
 namespace EasyIO {
 	public partial class Files {
 		public static void Write(string fileName, string newText, int line_to_edit) {
-	    string[] arrLine = File.ReadAllLines(fileName);
+	    string[] arrLine = File.ReadAllLines(@fileName);
 	    int count = 0;
-	    using(var reader = new StreamReader(fileName)) {
+	    using(var reader = new StreamReader(@fileName)) {
 	      while (reader.ReadLine() != null) {
 	        count++;
 	      }
@@ -18,7 +18,7 @@ namespace EasyIO {
 	    }
 	    arrLine = Countlst.ToArray();
 	    arrLine[line_to_edit - 1] = newText;
-	    File.WriteAllLines(fileName, arrLine);
+	    File.WriteAllLines(@fileName, arrLine);
 	  }
 	}
 }

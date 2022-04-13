@@ -7,7 +7,7 @@ using System.Text;
 namespace EasyIO {
 	public partial class Files {
 		public static void Clear(string filename) {
-	    System.IO.File.WriteAllText(filename, string.Empty);
+	    System.IO.File.WriteAllText(@filename, string.Empty);
 	  }
 	}
 }

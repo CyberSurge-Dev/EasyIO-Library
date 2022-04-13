@@ -7,7 +7,7 @@ using System.Text;
 namespace EasyIO {
 	public partial class Files {
 		public static string[] ReadAll(string filename) {
-	    string[] arrLine = File.ReadAllLines(filename);
+	    string[] arrLine = File.ReadAllLines(@filename);
 	    return arrLine;
 	  }
 	}
