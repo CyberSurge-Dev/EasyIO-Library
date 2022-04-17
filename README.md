@@ -1,7 +1,7 @@
 ## Get EasyIO on NuGet!
 
 ```
-Install-Package EasyIO.Library -Version 1.1.1
+Install-Package EasyIO.Library -Version 1.1.3
 ```
 
 EasyIO Library is a work in progress library designed to remake complex functions to be easier to use and understand.
